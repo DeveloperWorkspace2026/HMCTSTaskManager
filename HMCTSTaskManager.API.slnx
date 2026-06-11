@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../HMCTSTaskManager.API.Tests/HMCTSTaskManager.API.Tests.csproj" Id="aab46061-3ca5-4a06-be16-1287f9995504" />
+  <Project Path="HMCTSTaskManager.API.csproj" />
+</Solution>

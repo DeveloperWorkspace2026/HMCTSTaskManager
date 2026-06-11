@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>HMCTS Task Manager</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>HMCTS Task Manager</h1>
+
+    <form id="taskForm">
+        <input type="text" id="title" placeholder="Task title" required />
+        
+        <textarea id="description" placeholder="Task description"></textarea>
+
+        <input type="datetime-local" id="dueDate" required />
+
+        <button type="submit">Create Task</button>
+    </form>
+
+    <hr />
+    <h2>Tasks</h2>
+
+    <div id="taskList"></div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

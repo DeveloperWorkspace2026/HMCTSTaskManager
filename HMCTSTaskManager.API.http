@@ -1,0 +1,6 @@
+@HMCTSTaskManager.API_HostAddress = http://localhost:5206
+
+GET {{HMCTSTaskManager.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
